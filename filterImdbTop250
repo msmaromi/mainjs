@@ -1,0 +1,8 @@
+strArrYear = $('.secondaryInfo').text()
+arrYear = strArrYear.match(/\d{4}/g)
+
+movies = $('.lister-list tr')
+movies.each(function(index) {
+  if(parseInt(arrYear[index]) < 2000)
+    this.remove()
+})
