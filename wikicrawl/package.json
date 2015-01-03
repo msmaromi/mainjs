@@ -1,0 +1,8 @@
+{
+  "name": "Wiktionary Acronym Crawler",
+  "version": "0.0.1",
+  "main": "app.js",
+  "dependencies": {
+    "yql": "~1.0.2"
+  }
+}
